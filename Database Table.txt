@@ -1,0 +1,7 @@
+Database Table
+
+User Table :-
+create table user1 (full_name varchar2(20) not null, email varchar2(20) unique not null, password varchar2(20) not null);
+
+Accounts Table :-
+create table accounts (account_number number(15) unique not null, full_name varchar2(20) not null, email varchar2(20) unique, balance number(10), security_pin number(4) );
